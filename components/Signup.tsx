@@ -1,25 +1,10 @@
-import { Card, CardContent, Button, Typography, TextField } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import Image from 'next/image';
-import Forms from './forms/Forms';
-
-const useStyles = makeStyles(() => ({
-  card: {
-    maxWidth: '70%',
-    borderRadius: 12,
-    padding: '45px 40px 25px'
-  },
-  heading: {
-    display: 'flex',
-    justifyContent: 'space-between'
-  }
-}))
+import { Card, CardContent } from '@mui/material';
+import Forms from './Forms';
+import styles from '../styles/Signup.module.css';
 
 export default function Signup() {
-  const classes = useStyles();
-
   return (
-    <Card className={classes.card}>
+    <Card className={styles.card}>
       <CardContent>
         <Forms />
       </CardContent>
