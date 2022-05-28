@@ -1,0 +1,15 @@
+p.input_label {
+  color: #233D2C;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+div.input {
+  margin-bottom: 24px;
+  min-width: 280px;
+}
+
+div.select {
+  margin-bottom: 24px;
+}
