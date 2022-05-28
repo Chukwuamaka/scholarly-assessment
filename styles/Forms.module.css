@@ -1,0 +1,12 @@
+span.step_label svg.Mui-active {
+  color: #46AC66;
+}
+
+.next_btn_container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.next_btn_container button {
+  text-transform: capitalize;
+}
